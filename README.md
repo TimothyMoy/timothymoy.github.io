@@ -1,7 +1,8 @@
 # timothymoy.github.io
 
-I wanted to recreate my design portfolio on Github. 
+### Overview
+As a designer turned developer/engineer, I decided to redo my portfolio by utilizing the skills I've learned from General Assembly's Software Engineering Immersive and other resources.
 
-I am using a template from HTML5up as a base to update my portfolio.
+For this project I'll be using the <a href="http://getskeleton.com/" alt="Link to Skeleton CSS Library">Skeleton Framework</a> to create the base of my portfolio.
 
-I wanted to challenge myself to code so I'm trying new ways to display my work.
+I want to highlight the projects I've worked on at General Assembly, while including my past experience + projects I'm currently working on.
