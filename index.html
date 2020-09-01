@@ -13,78 +13,94 @@
  	<title>Timothy Moy's Portfolio</title>
 </head>
 <body>
-	<section class="hero">
-		<h1>Hello</h1>
-	</section>
-	<nav>
-		<ul class="nav-list">
-			<li class="nav-item">
-				<a href="/index.html" class="nav-link">Home</a>
-			</li>
-			<li class="nav-item">
-				<a href="#about" class="nav-link">About</a>
-			</li>
-			<li class="nav-item">
-				<a href="#portfolio" class="nav-link">Portfolio</a>
-			</li>
-			<li class="nav-item">
-				<a href="#blog" class="nav-link">Blog</a>
-			</li>
-			<li class="nav-item">
-				<a href="#contact" class="nav-link">Contact</a>
-			</li>
-		</ul>
-	</nav>
-	<section id="about">
-		<h2>About</h2>
-		<div>
-			<img src="https://picsum.photos/200">
-		</div>
-		<div>
-			<p>Hey there! You can call me Tim, I am a software engineer that is focused on front-end development. I recently completed General Assembly's Software Engineering Immersive and I am excited to look for my next opportunity in front-end development.</p>
-			<ul>
-				<li>I am currently…
-					<ul>
-						<li>Looking for a new role in the San Francisco or Los Angeles Area.</li>
-					</ul>
+	<div class="container">
+		<section class="hero">
+			<h1>Hello</h1>
+		</section>
+		<nav>
+			<ul class="nav-list">
+				<li class="nav-item">
+					<a href="/index.html" class="nav-link">Home</a>
 				</li>
-				<li>In the past…
-					<ul>
-						<li>I worked for the Google Assistant Brand and Growth team as a contract Visual Designer</li>
-						<li>I worked for multiple start ups wearing many hats.</li>
-						<li>I earned a BFA in Visual Development at the Academy of Art University</li>
-					</ul>
+				<li class="nav-item">
+					<a href="#about" class="nav-link">About</a>
 				</li>
-				<li>When I’m not working..
-					<ul>
-						<li>I spend time with my dogs</li>
-						<li>I also enjoy drawing and painting</li>
-					</ul>
+				<li class="nav-item">
+					<a href="#portfolio" class="nav-link">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#blog" class="nav-link">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contact" class="nav-link">Contact</a>
 				</li>
 			</ul>
-		</div>
-	</section>
-	<section id="Portfolio">
-		<h2>Projects</h2>
-		<div>
-			<div>Project Description</div>
-			<div>Project Image</div>
-		</div>
-		<h4>See More</h4>
-	</section>
-	<section id="contact">
-		<div>
-			<h2>Contact</h2>
-			<form>
-				<input></input>
-				<button>Submit</button>
-			</form>
-		</div>
-	</section>
-	<footer>
-		<ul>
-			<li>social links</li>
-		</ul>
-	</footer>
+		</nav>
+		<section id="about">
+			<h2>About</h2>
+			<div>
+				<img src="https://picsum.photos/200">
+			</div>
+			<div>
+				<p>Hey there! You can call me Tim, I am a software engineer that is focused on front-end development. I recently completed General Assembly's Software Engineering Immersive and I am excited to look for my next opportunity in front-end development.</p>
+				<ul>
+					<li>I am currently…
+						<ul>
+							<li>Looking for a new role in the San Francisco or Los Angeles Area.</li>
+						</ul>
+					</li>
+					<li>In the past…
+						<ul>
+							<li>I worked for the Google Assistant Brand and Growth team as a contract Visual Designer</li>
+							<li>I worked for multiple start ups wearing many hats.</li>
+							<li>I earned a BFA in Visual Development at the Academy of Art University</li>
+						</ul>
+					</li>
+					<li>When I’m not working..
+						<ul>
+							<li>I spend time with my dogs</li>
+							<li>I also enjoy drawing and painting</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="Portfolio">
+			<h2>Projects</h2>
+			<div>
+				<div>Project Description</div>
+				<div>Project Image</div>
+			</div>
+			<h4>See More</h4>
+		</section>
+		<section id="contact">
+			<div>
+				<h2>Contact</h2>
+				<form>
+					<div class="row">
+						<div class="six columns">
+							<label for="exampleEmailInput">Your email</label>
+							<input class="u-full-width" type="email" placeholder="JohnDoe@mailbox.com" id="exampleEmailInput">
+						</div>
+						<div class="six columns">
+							<label for="exampleRecipientInput">Reason for contacting</label>
+							<select class="u-full-width" id="exampleRecipientInput">
+								<option value="Option 1">Questions</option>
+								<option value="Option 2">Collaboration</option>
+							</select>
+						</div>
+					</div>
+					<label for="exampleMessage">Message</label>
+					<textarea class="u-full-width" placeholder="Hi Tim …" id="exampleMessage"></textarea>
+					<input class="button-primary" type="submit" value="Submit">
+				</form>
+			</div>
+		</section>
+		<footer>
+			<ul>
+				<li>social links</li>
+			</ul>
+		</footer>
+	</div>
 </body>
 </html>
