@@ -1,0 +1,17 @@
+.hero{
+  height: 100vh;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item{
+  text-decoration: none;
+}
