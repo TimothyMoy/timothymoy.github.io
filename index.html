@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="./css/normalize.css">
 	<!-- CUSTOM CSS -->
 	<link rel="stylesheet" href="./CSS/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 	<script defer src="./JS/app.js"></script>
  	<title>Timothy Moy's Portfolio</title>
 </head>
@@ -17,7 +19,7 @@
 		<section class="hero">
 			<nav>
 				<div class="logo">
-					<a href="/index.html" class="nav-link">Logo</a>
+					<a href="/index.html" class="nav-link">Timothy Moy</a>
 				</div>
 				<ul class="nav-list">
 					<li class="nav-item">
@@ -28,6 +30,9 @@
 					</li>
 					<li class="nav-item">
 						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="./resources/[2020] Resume - Software Engineer - Timothy Moy.pdf" class="nav-link"><button>Resume</button></a>
 					</li>
 				</ul>
 			</nav>
@@ -49,119 +54,134 @@
 					<ul>
 						<li>I am currently…
 							<ul>
-								<li>Looking for a new role in the San Francisco or Los Angeles Area.</li>
+								<P>Looking for a new role in the San Francisco or Los Angeles Area.</p>
 							</ul>
 						</li>
 						<li>In the past…
 							<ul>
-								<li>I worked for the Google Assistant Brand and Growth team as a contract Visual Designer</li>
-								<li>I worked for multiple start ups wearing many hats.</li>
-								<li>I earned a BFA in Visual Development at the Academy of Art University</li>
+								<p>I worked for the Google Assistant Brand and Growth team as a contract Visual Designer</p>
+								<p>I worked for multiple start ups wearing many hats.</p>
+								<p>I earned a BFA in Visual Development at the Academy of Art University</p>
 							</ul>
 						</li>
 						<li>When I’m not working..
 							<ul>
-								<li>I spend time with my dogs</li>
-								<li>I also enjoy drawing and painting</li>
+								<p>I spend time with my dogs</p>
+								<p>I also enjoy drawing and painting</p>
 							</ul>
 						</li>
 					</ul>
 				</div>
 				<div class="six columns">
-					<img src="https://picsum.photos/200">
+					<img src="./images/Profile_Picture.jpeg" class="profile-picture">
 				</div>
 			</div>
 		</section>
-		<section id="Portfolio" class="row">
+		<section id="portfolio">
 			<h2>Projects</h2>
 			<div class="row">
 				<div class="five columns">
-					<img src="https://picsum.photos/200" class="profile-picture">
+					<img src="./images/flavor.png" class="card-img">
 				</div>
 				<div class="seven columns">
-					<div>Flavor</div>
-					<p>
-						Flavor is a recipe web app. View recipes that others have created or create and add your own favorite recipes.
-					</p>
-					<div>
-						<ul class="nav-list">
-							<li class="nav-item">MongoDB</li>
-							<li class="nav-item">Express</li>
-							<li class="nav-item">React</li>
-							<li class="nav-item">Node.js</li>
-						</ul>
+					<h5>Flavor</h5>
+					<div class="card">
+						<p>
+							Flavor is a recipe web app. View recipes that others have created or create and add your own favorite recipes.
+						</p>
+						<div>
+							<ul class="nav-list">
+								<li class="nav-item">MongoDB</li>
+								<li class="nav-item">Express</li>
+								<li class="nav-item">React</li>
+								<li class="nav-item">Node.js</li>
+							</ul>
+						</div>
 					</div>
+					<div class="work-links">
 					<a href="https://github.com/TimothyMoy/Flavor">Github</a>		
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="seven columns">
-					<div>Wayfarer</div>
+					<h5>Wayfarer</h5>
+					<div class="card">
 					<p>
-						Flavor is a recipe web app. View recipes that others have created or create and add your own favorite recipes.
+						Wayfarer is a travel community web app. Users can add locations they've visited and read articles that others have posted. 
 					</p>
 					<div>
 						<ul class="nav-list">
-							<li class="nav-item">MongoDB</li>
-							<li class="nav-item">Express</li>
-							<li class="nav-item">React</li>
-							<li class="nav-item">Node.js</li>
+							<li class="nav-item">Django</li>
+							<li class="nav-item">Python</li>
+							<li class="nav-item">PostgreSQL</li>
 						</ul>
 					</div>
-					<a href="https://github.com/TimothyMoy/Flavor">Github</a>			
+				</div>
+				<div class="work-links">
+					<a href="https://github.com/TimothyMoy/django-wayfarer">Github</a>	
+					<a href="https://projectwayfarer-sei12.herokuapp.com/">Website</a>	
+				</div>			
 				</div>
 				<div class="five columns">
-					<div><img src="https://picsum.photos/200"></div>
+					<img src="./images/wayfarer.png" class="card-img">
 				</div>
 			</div>
 			<div class="row">
 				<div class="five columns">
-					<div><img src="https://picsum.photos/200"></div>
+					<img src="./images/stormchazers.png" class="card-img">
 				</div>
 				<div class="seven columns">
-					<div>Storm Chasers</div>
-					<p>
-						Flavor is a recipe web app. View recipes that others have created or create and add your own favorite recipes.
-					</p>
-					<div>
-						<ul class="nav-list">
-							<li class="nav-item">MongoDB</li>
-							<li class="nav-item">Express</li>
-							<li class="nav-item">React</li>
-							<li class="nav-item">Node.js</li>
-						</ul>
+					<h5>Storm Chasers</h5>
+					<div class="card">
+						<p>
+							Storm chasers was a collaboration project with 3 engineers and 2 designers. In a span of 2 days, we created Storm chasers a storm tracking application.
+						</p>
+						<div>
+							<ul class="nav-list">
+								<li class="nav-item">MongoDB</li>
+								<li class="nav-item">Express</li>
+								<li class="nav-item">React</li>
+								<li class="nav-item">Node.js</li>
+							</ul>
+						</div>
 					</div>
-					<a href="https://github.com/TimothyMoy/Flavor">Github</a>			
+					<div class="work-links">
+					<a href="https://github.com/TimothyMoy/storm_chasers">Github</a>	
+					<a href="https://storm-chaserz.herokuapp.com/">Website</a>
+					</div>				
 				</div>
 			</div>
 			<div class="row">
 				<div class="seven columns">
-					<div>Buy and Drive</div>
-					<p>
-						Flavor is a recipe web app. View recipes that others have created or create and add your own favorite recipes.
-					</p>
-					<div>
-						<ul class="nav-list">
-							<li class="nav-item">MongoDB</li>
-							<li class="nav-item">Express</li>
-							<li class="nav-item">React</li>
-							<li class="nav-item">Node.js</li>
-						</ul>
+					<h5>Buy and Drive</h5>
+					<div class="card">
+						<p>Buy & Drive is a website application that displays second-hand cars that are currently being sold. Users are able to create a profile to sell and buy cars.</p>
+						<div>
+							<ul class="nav-list">
+								<li class="nav-item">MongoDB</li>
+								<li class="nav-item">Express</li>
+								<li class="nav-item">Node.js</li>
+							</ul>
+						</div>
 					</div>
-					<a href="https://github.com/TimothyMoy/Flavor">Github</a>			
+					<div class="work-links">
+						<a href="https://github.com/TimothyMoy/BuyAndDrive">Github</a>	
+						<a href="https://protected-tor-00551.herokuapp.com/">Website</a>			
+					</div>
 				</div>
 				<div class="five columns">
-					<div><img src="https://picsum.photos/200"></div>
+					<img src="./images/buyanddrive.png" class="card-img">
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<a href="./portfolio.html">
 					<button class="button-primary">See More</button>
 				</a>
-			</div>
+			</div> -->
 		</section>
 		<section id="contact">
-			<div>
+			<div class="contact">
 				<h2>Contact</h2>
 				<p>I am currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I would love to learn how we could work together!
 				</p>
