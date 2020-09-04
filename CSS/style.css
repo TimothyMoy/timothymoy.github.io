@@ -1,17 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
 .hero{
   height: 100vh;
+}
+
+.logo {
+  margin: 10px;
 }
 
 nav {
   height: 60px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-list ul {
+  align-items: center;
+  margin-bottom: 0px;
 }
 
 .nav-list {
   display: flex;
 }
 
-.nav-item{
+.nav-item {
+  list-style: none;
+  margin: 10px;
+}
+
+.nav-link{
   text-decoration: none;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about {
+  height: 100vh;
 }
