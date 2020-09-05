@@ -3,10 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- SKELETON CSS -->
-	<link rel="stylesheet" href="./CSS/skeleton.css">
-	<!-- NORMALIZE CSS -->
-	<link rel="stylesheet" href="./CSS/normalize.css">
+	<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<!-- CUSTOM CSS -->
 	<link rel="stylesheet" href="./CSS/style.css">
 	<!-- Google Fonts -->
@@ -15,37 +18,39 @@
  	<title>Timothy Moy's Portfolio</title>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="logo">
+			<a class="navbar-brand" href="/index.html">Timothy Moy</a>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#portfolio" class="nav-link">Work</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contact" class="nav-link">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a href="./resources/[2020] Resume - Software Engineer - Timothy Moy.pdf" class="nav-link"><button>Resume</button></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<p>Hi, my name is</p>
+		<h1 class="display-4">Timothy Moy</h1>
+		<h1 class="display-4">I build and design things for the web</h1>
+		<p class="lead">I am a software engineer based in San Francisco, CA specializing in building websites and applications.</p>
+		<hr class="my-4">
+		<a class="btn btn-primary btn-lg" href="mailto: timothy.z.moy@gmail.com" role="button">Get in touch</a>
+	</div>
 	<div class="container">
-		<section class="hero">
-			<nav>
-				<div class="logo">
-					<a href="/index.html" class="nav-link">Timothy Moy</a>
-				</div>
-				<ul class="nav-list">
-					<li class="nav-item">
-						<a href="#about" class="nav-link">About</a>
-					</li>
-					<li class="nav-item">
-						<a href="#portfolio" class="nav-link">Work</a>
-					</li>
-					<li class="nav-item">
-						<a href="#contact" class="nav-link">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a href="./resources/[2020] Resume - Software Engineer - Timothy Moy.pdf" class="nav-link"><button>Resume</button></a>
-					</li>
-				</ul>
-			</nav>
-			<div class="hero-text">
-				<p>Hi, my name is</p>
-				<h1>Timothy Moy</h1>
-				<h4>I build and design things for the web</h4>
-				<p>I am a software engineer based in San Francisco, CA specializing in building websites and applications.</p>
-				<a href = "mailto: timothy.z.moy@gmail.com">
-					<button class="button-primary">Get in touch</button>
-				</a>
-			</div>
-		</section>
 		<section id="about">
 			<h2>About Me</h2>
 			<div class="row">
