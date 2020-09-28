@@ -27,13 +27,13 @@ body {
 
 h1 {
   font-size: 42px;
-  font-weight: 400;
+  font-weight: 600;
   color: #17191a;
 }
 
 h2 {
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 600;
   color: #17191a;
 }
 
@@ -67,6 +67,13 @@ ul {
   margin: 16px;
   border-radius: 8px;
   color: #ffffff;
+}
+
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  justify-content: space-around;
 }
 
 /* Nav section */
@@ -164,13 +171,12 @@ nav {
 /* Cards*/
 
 .card{
-  border-radius: 4px;
-  padding: 16px;
+  border-radius: 16px;
   box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.1);
   background-color: #ffffff;
-  margin: 2rem;
+  margin: 1.5rem;
   width: 100%;
-  max-width: 900px;
+  max-width: 440px;
 }
 
 .card-title{
@@ -188,25 +194,46 @@ nav {
 .card-body{
   font-size: 1rem;
   color: #6a6a6a;
+  height: 100px;
 }
 
 .card-tag-list{
   display: flex;
-  color: #a8a8a8;
+  color: #00B0FF;
 }
 
 .card-tag{
-  font-size: .75rem;
+  font-size: .8rem;
+  font-weight: 300;
   text-decoration: none;
   margin-right: 8px;
   margin-top: 8px;
 }
 
 .card-img{
-  max-height: 220px;
+  max-height: 100%;
   object-fit: contain;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
 }
 
+.card-info{
+  padding: 16px;
+}
+
+.work-links{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-link {
+  font-weight: 400;
+  color: #00B0FF;
+  text-decoration: none;
+}
 /* contact section */
 
 .contact {
@@ -217,12 +244,3 @@ nav {
   text-align: center;
 }
 
-.row{
-  display:flex;
-  justify-content: center;
-  margin-bottom: 60px;
-}
-
-.work-links{
-  margin-top: 16px;
-}
