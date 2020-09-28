@@ -114,17 +114,17 @@ nav {
   height: 100vh;
 }
 
-.jumbotron{
+.landing{
   height: 80vh;
+  position: relative;
   display: flex;
   align-items: center;
-  padding: 32px;
 }
 
-.hero-text {
+.landing-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .hero-title {
