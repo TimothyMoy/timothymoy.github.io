@@ -62,10 +62,11 @@ ul {
 
 .btn-primary {
   width: fit-content;
-  padding: 8px;
-  background-color: gray;
+  padding: 12px;
+  background-color: #00B0FF;
   margin: 16px;
   border-radius: 8px;
+  color: #ffffff;
 }
 
 /* Nav section */
@@ -117,14 +118,18 @@ nav {
 .landing{
   height: 80vh;
   position: relative;
-  display: flex;
   align-items: center;
+  margin-top: 10%;
 }
 
 .landing-wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.landing-l{
+  max-width: 600px;
 }
 
 .hero-title {
@@ -132,14 +137,13 @@ nav {
   margin-bottom: 8px;
 }
 
-.hero-title-small {
-  font-size: 1rem;
+.hero-subtitle {
+  font-size: 1.25rem;
   margin-bottom: 8px;
 }
 
-.hero-subtitle {
-  font-size: 1.5rem;
-  margin-bottom: 8px;
+.hero-img{
+  max-width: 300px;
 }
 
 .container {
